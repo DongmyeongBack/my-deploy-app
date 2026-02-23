@@ -1,0 +1,23 @@
+# <타입>: <제목> (최대 50자, 명령문 형태, 마침표 X)
+# 예시: model: change optimizer from SGD to AdamW
+# 예시: data: add Gaussian noise augmentation
+
+# --- 본문(Body) ---
+# (선택) 상세한 변경 내용, 변경 이유, 실험 결과(Accuracy, Loss 등)를 작성해주세요.
+
+
+# --- 꼬리말(Footer) ---
+# (선택) 관련 이슈 번호나 WandB, 드라이브 링크 등을 적어주세요.
+# 예시: Resolves: #12, Weights: https://drive.google.com/...
+
+
+# --- [커밋 타입 가이드] ---
+# feat     : 새로운 기능 추가 (모델 구조, 데이터 로더 등)
+# fix      : 버그/오류 수정 (텐서 사이즈 불일치 해결 등)
+# data     : 데이터 전처리, 증강, 스플릿 관련 변경
+# model    : 모델 아키텍처 또는 하이퍼파라미터 변경
+# train    : 학습 루프/파이프라인 수정
+# eval     : 평가 지표(Metric) 또는 검증 파이프라인 수정
+# docs     : 문서 수정 (README.md, 실험 결과 기록 등)
+# refactor : 코드 구조 개선 (기능 변화 없음)
+# chore    : 패키지 설치(requirements.txt), .gitignore 설정 등
